@@ -1,11 +1,14 @@
 import React,{Component} from 'react'
+import Header from './temple/Header'
+import Footer from './temple/Footer'
 
-class HoonApp extends Component {
-    render(){
+const HoonApp=()=>{
         return(
-           <p>ㅎㅎ</p>
+            <React.Fragment>
+                <Header />
+                <Footer />
+            </React.Fragment>            
         )
-    }
 }
 
 export default HoonApp;

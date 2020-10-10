@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AppRoute from './AppRoute';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<AppRoute />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 serviceWorker.unregister();

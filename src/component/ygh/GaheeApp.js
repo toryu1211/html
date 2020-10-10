@@ -1,11 +1,14 @@
 import React,{Component} from 'react'
+import Header from './temple/Header'
+import Footer from './temple/Footer'
 
-class GaheeApp extends Component {
-    render(){
+const GaheeApp=()=>{
         return(
-            <p>얍2</p>
+            <React.Fragment>
+                <Header />
+                <Footer />
+            </React.Fragment>
         )
-    }
 }
 
 export default GaheeApp;
