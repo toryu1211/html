@@ -2,7 +2,15 @@ import React,{Component} from 'react'
 
 const Header=()=>{
     return(
-        <p>가희헤더</p>
+        <header className="header">
+            <nav className="menu">
+                <ul className="menu_list">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
     )
 }
 
