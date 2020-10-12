@@ -1,7 +1,8 @@
 import React,{Component} from 'react'
+import '../../../../assets/css/ygh/common.css'
 
 const Header=()=>{
-    return(
+    return(    
         <header className="header">
             <nav className="menu">
                 <ul className="menu_list">
