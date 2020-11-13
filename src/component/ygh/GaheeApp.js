@@ -6,6 +6,13 @@ const GaheeApp=()=>{
         return(
             <React.Fragment>
                 <Header />
+                {/* <Router>
+                    <Switch>
+                        <Route exact path={'/ygh/about'} component={} />
+                        <Route exact path={'/ygh/portfolio'} component={} />
+                        <Route path={'/ygh/contact'} component={} />                
+                    </Switch>
+                </Router> */}
                 <Footer />
             </React.Fragment>
         )
