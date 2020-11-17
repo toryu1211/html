@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    width:100%;
+    height:100%;
+}
+
+div{ position:relative; box-sizing: border-box;}
+li { list-style-type: none;}
+a { text-decoration: none; }
+
+.wrapper {
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: revert;
+}
+.nomal_btn { min-width: 100px; height: 45px; border: 1px solid #ddd; border-radius: 5px; padding: 0 10px; background: #fff; cursor: pointer; }
+.nomal_btn:hover, .nomal_btn:active { background: #ddd; }
+
+.wiki_nav { width: 200px; height: 100vh; padding: 50px 30px; background: #e4e4e4; }
+.wiki_nav h2 { margin-bottom: 20px}
+.wiki_nav .wiki_list { width:100%; height: auto; }
+.wiki_nav .wiki_list li { width: 100%; height: 30px;  }
+.wiki_nav .wiki_list li a { color: #000; }
+
+.wiki_sec { width: calc(100% - 200px); height: 100vh; overflow: auto; }
+.wiki_sec .inner { width:100%; height:100%; padding: 50px 30px; }
+.btn_box { margin-bottom: 30px; }
+.btn_box .nomal_btn { margin-right: 10px; }
+.btn_box .nomal_btn:last-child { margin-right: 0; }
+.wiki_sec .title { width:100%; height: auto; padding: 10px 0; border-bottom: 1px solid #ddd; margin-bottom: 10px; }
+.wiki_sec .title h3 { font-size: 24px; margin-bottom:10px;  }
+.wiki_sec .title p { font-size: 16px; color: #999; }
+.wiki_sec .w_con { width: 100%; height: auto; }
+.wiki_sec .w_con p { line-height: 1.5; }
